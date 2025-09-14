@@ -34,7 +34,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: './sidebars.js',
-                    editUrl: 'https://github.com/Neko-Nik-Org/LSMTP-Docs/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/Neko-Nik-Org/LSMTP-Docs/blob/main/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -42,7 +42,7 @@ const config = {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    editUrl: 'https://github.com/Neko-Nik-Org/LSMTP-Docs/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/Neko-Nik-Org/LSMTP-Docs/blob/main/',
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn',
