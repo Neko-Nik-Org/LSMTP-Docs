@@ -62,6 +62,20 @@ MAX_EMAIL_SIZE_BYTES=52428800
 
 ---
 
+### `RUST_LOG`
+
+To enable verbose logging for troubleshooting, you can set the `RUST_LOG` environment variable:
+
+```sh
+RUST_LOG=lsmtpd=TRACE
+```
+
+:::info
+This uses the standard Rust logging format. You can adjust the log level (`TRACE`, `DEBUG`, `INFO`, `WARN`, `ERROR`) as needed.
+:::
+
+---
+
 ## AMQP-Level Configuration
 
 These variables define how LSMTPD connects to your AMQP broker (e.g., RabbitMQ).
