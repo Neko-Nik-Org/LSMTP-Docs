@@ -23,7 +23,7 @@ The IP address the SMTP server will bind to.
 
 ```sh
 BIND_ADDRESS=0.0.0.0
-````
+```
 
 ---
 
