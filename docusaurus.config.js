@@ -36,17 +36,6 @@ const config = {
                     sidebarPath: './sidebars.js',
                     editUrl: 'https://github.com/Neko-Nik-Org/LSMTP-Docs/blob/main/',
                 },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        xslt: true,
-                    },
-                    editUrl: 'https://github.com/Neko-Nik-Org/LSMTP-Docs/blob/main/',
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
-                },
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -71,11 +60,6 @@ const config = {
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
                         label: 'Tutorial',
-                    },
-                    {
-                        to: '/blog',
-                        label: 'Blog',
-                        position: 'left'
                     },
                     {
                         href: 'https://github.com/Neko-Nik/LSMTP',
