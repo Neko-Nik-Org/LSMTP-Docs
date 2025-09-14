@@ -66,6 +66,11 @@ MAX_EMAIL_SIZE_BYTES=52428800
 
 These variables define how LSMTPD connects to your AMQP broker (e.g., RabbitMQ).
 
+:::danger
+Ensure you have the correct AMQP broker settings before starting the server. If incorrect or connection fails, LSMTPD will save emails to the disk at `/tmp/lsmtp` for manual processing.
+:::
+
+
 ### `AMQP_HOST`
 
 Hostname or IP address of the AMQP broker.
