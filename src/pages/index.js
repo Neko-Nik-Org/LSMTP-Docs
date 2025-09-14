@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            LSMTP Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Neko Nik"
+      description="Lightweight and fast: receive mail over SMTP and deliver it directly into your AMQP workflow">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

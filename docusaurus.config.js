@@ -6,7 +6,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'LSMTP',
-    tagline: 'Neko\'s Lightweight SMTP',
+    tagline: 'Lightweight and fast: receive mail over SMTP and deliver it directly into your AMQP workflow',
     favicon: 'img/favicon.ico',
     future: {
         v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -60,9 +60,9 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My Site',
+                title: 'LSMTP',
                 logo: {
-                    alt: 'My Site Logo',
+                    alt: 'LSMTP - Cat faced email logo',
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -78,7 +78,7 @@ const config = {
                         position: 'left'
                     },
                     {
-                        href: 'https://github.com/Neko-Nik-Org/LSMTP-Docs',
+                        href: 'https://github.com/Neko-Nik/LSMTP',
                         label: 'GitHub',
                         position: 'right',
                     },
