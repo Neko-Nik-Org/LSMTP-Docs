@@ -174,6 +174,7 @@ BIND_ADDRESS=0.0.0.0
 BIND_PORT=25
 SERVER_NAME=mail.example.com
 MAX_EMAIL_SIZE_BYTES=52428800
+RUST_LOG=lsmtpd=INFO
 
 # AMQP Broker Config
 AMQP_HOST=rabbit.example.com
