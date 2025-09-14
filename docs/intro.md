@@ -39,45 +39,6 @@ By narrowing its scope, LSMTPD can offer:
 
 ---
 
-## Why use LSMTPD?
-
-There are several reasons why LSMTPD stands out as a solution for modern systems:
-
-### 1. Lightweight and Efficient
-LSMTPD has been designed to be minimal. It doesn’t attempt to replicate a full mail server stack — it does one thing, and does it well: **receive mail and forward to AMQP.**  
-This makes it ideal for microservices, event-driven systems, and cloud-native deployments where efficiency and simplicity matter.
-
-### 2. Seamless AMQP Integration
-Because it directly integrates with **AMQP**, LSMTPD allows you to plug email data into your existing messaging infrastructure.  
-That means you can process emails the same way you handle other events, jobs, or messages — with the same queues, consumers, and workflows you already rely on.
-
-### 3. Reliability and Safety
-Built in **Rust**, LSMTPD benefits from Rust’s guarantees around memory safety and concurrency.  
-This makes the server robust, secure, and performant under load. It is designed with production use in mind and can handle real-world email traffic reliably.
-
-### 4. Open Source and Transparent
-LSMTPD is fully open source and licensed under **GPL-3.0**.  
-This ensures that you:  
-- Have full access to the source code.  
-- Can audit it for security and reliability.  
-- Are free to extend or contribute improvements back to the project.  
-
-👉 Source code: [github.com/Neko-Nik/LSMTP](https://github.com/Neko-Nik/LSMTP)  
-
----
-
-## When should you use LSMTPD?
-
-LSMTPD is the right tool for you if:  
-- You need to **capture incoming emails** and feed them into an event-driven system.  
-- You’re building **automation workflows** that respond to email messages.  
-- You want a **simple, minimal alternative** to a full mail server.  
-- You’re working with **AMQP-based systems** and want a direct email → queue pipeline.  
-
-If you need advanced mail features (mail storage, spam filtering, outbound relay, virtual domains, etc.), then a traditional MTA is a better choice. But if your goal is *just to forward incoming emails into a queue*, LSMTPD is designed for that exact purpose.  
-
----
-
 ## Summary
 
 **LSMTPD** is a purpose-built, open source SMTP server that:  

@@ -1,0 +1,8 @@
+{
+  "label": "Getting Started",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "A collection of guides and tutorials to help you get started with LSMTPD"
+  }
+}
