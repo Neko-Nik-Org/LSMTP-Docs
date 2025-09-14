@@ -66,6 +66,11 @@ const config = {
                         label: 'GitHub',
                         position: 'right',
                     },
+                    {
+                        href: 'https://doi.org/10.31224/4377',
+                        label: 'Paper',
+                        position: 'right',
+                    },
                 ],
             },
             footer: {
