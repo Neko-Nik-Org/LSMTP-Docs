@@ -46,8 +46,7 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            // Replace with your project's social card
-            image: 'img/docusaurus-social-card.jpg',
+            image: 'img/lsmtp-social-card.jpg',
             // Custom meta tags added to the <head> of every page
             metadata: [
                 { name: 'algolia-site-verification', content: '142F5BBB378D5988' },
