@@ -1,7 +1,6 @@
 # LSMTPD Documentation
 
-This repository contains the **official documentation** for [LSMTPD](https://github.com/Neko-Nik/LSMTP) —  
-a lightweight, high-performance SMTP server written in Rust that forwards mail directly into AMQP.  
+This repository contains the **official documentation** for [LSMTPD](https://github.com/Neko-Nik/LSMTP) — a lightweight, high-performance SMTP server written in Rust that forwards mail directly into AMQP.
 
 The docs are built with [Docusaurus](https://docusaurus.io/), a modern static site generator.
 
