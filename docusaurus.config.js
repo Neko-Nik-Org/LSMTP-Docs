@@ -48,6 +48,10 @@ const config = {
         ({
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
+            // Custom meta tags added to the <head> of every page
+            metadata: [
+                { name: 'algolia-site-verification', content: '142F5BBB378D5988' },
+            ],
             navbar: {
                 title: 'LSMTP',
                 logo: {
@@ -133,6 +137,38 @@ const config = {
             prism: {
                 theme: prismThemes.github,
                 darkTheme: prismThemes.dracula,
+            },
+            algolia: {
+                // The application ID provided by Algolia
+                appId: 'Q82BZ70G29',
+
+                // Public API key: it is safe to commit it
+                apiKey: 'e785bd3c391cd36de768a2d2eeca0cf2',
+
+                indexName: 'LSMTP Documentation Website',
+
+                // Optional: see doc section below
+                contextualSearch: true,
+
+                // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+                externalUrlRegex: 'nekonik\\.com|nekonik\\.org',
+
+                // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+                // replaceSearchResultPathname: {
+                //     from: '/docs/', // or as RegExp: /\/docs\//
+                //     to: '/',
+                // },
+
+                // Optional: Algolia search parameters
+                searchParameters: {},
+
+                // Optional: path for search page that enabled by default (`false` to disable it)
+                searchPagePath: 'search',
+
+                // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+                insights: false,
+
+                //... other Algolia params
             },
         }),
 };
