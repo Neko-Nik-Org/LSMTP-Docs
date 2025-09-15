@@ -6,7 +6,7 @@ sidebar_position: 2
 
 This page explains the **lifecycle of an email** inside LSMTPD — from the moment a client connects, to when the message is delivered into AMQP.
 
-![LSMTPD workflow](./img/flow.svg)
+<img src="/img/flow.svg" alt="LSMTPD workflow" />
 
 ---
 
