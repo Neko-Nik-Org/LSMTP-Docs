@@ -27,14 +27,13 @@ If you find a bug or want to request a feature, open an issue on GitHub:
 
 ## 🤝 Contributing
 Want to contribute code, documentation, or examples?  
-Check out the [Contributing Guide](../getting-started/build.md) and open a Pull Request on GitHub.  
+Check out the [Git Repo](https://github.com/Neko-Nik/LSMTP) and open a Pull Request on GitHub.
 
 ---
 
 ## 🔒 Security
 For security-related issues, please **do not open a public issue**.  
-Instead, report privately via:  
-👉 `security@nekonik.com` *(example placeholder)*  
+Instead, report privately via: `admin@nekonik.com`
 
 ---
 

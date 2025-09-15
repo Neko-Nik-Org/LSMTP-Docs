@@ -76,4 +76,4 @@ You are free to use, inspect, and contribute.
 
 ### ❓ Who maintains LSMTPD?
 
-LSMTPD is developed and maintained by [NekoNik](https://github.com/Neko-Nik).
+LSMTPD is developed and maintained by [Neko Nik](https://www.nekonik.com/impressum).
