@@ -80,7 +80,7 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
+                                label: 'Documentation',
                                 to: '/docs/intro',
                             },
                         ],
@@ -88,6 +88,10 @@ const config = {
                     {
                         title: 'Community',
                         items: [
+                            {
+                                label: 'GitHub Organization',
+                                href: 'https://github.com/Neko-Nik-Org',
+                            },
                             {
                                 label: 'Neko Nik Forums',
                                 href: 'https://forums.nekonik.com',
